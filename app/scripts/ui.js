@@ -6,8 +6,7 @@ console.log(speakphrase);
 
 $(document).ready(function(){
     $('#scroll-nav').onePageNav({
-        scrollSpeed: 10,
-        scrollOffset: 30,
+        scrollSpeed: 1000,
         scrollThreshold: 0.5,
         easing: 'swing'
     });

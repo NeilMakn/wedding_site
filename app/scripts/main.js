@@ -1,7 +1,8 @@
 require.config({
     paths: {
         jquery: '../bower_components/jquery/jquery',
-        scrollTo: '../bower_components/jquery.scrollTo/jquery.scrollTo',
+        scrollTo: '../bower_components/jQuery-One-Page-Nav/jquery.scrollTo',
+        pageNav: '../bower_components/jQuery-One-Page-Nav/jquery.nav',
         bootstrapAffix: '../bower_components/sass-bootstrap/js/affix',
         bootstrapAlert: '../bower_components/sass-bootstrap/js/alert',
         bootstrapButton: '../bower_components/sass-bootstrap/js/button',
@@ -50,11 +51,14 @@ require.config({
         },
         scrollTo: {
             deps: ['jquery']
+        },
+        pageNav: {
+            deps: ['scrollTo']
         }
     }
 });
 
-require(['app', 'jquery', 'ui'], function (app, $) {
+require(['app', 'jquery', 'pageNav', 'ui'], function (app, $) {
     'use strict';
     // use app here
     console.log(app);
