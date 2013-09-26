@@ -4,3 +4,5 @@ define([], function () {
 
     return '\'Allo \'Allo!';
 });
+
+

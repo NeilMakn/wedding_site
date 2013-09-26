@@ -1,6 +1,7 @@
 require.config({
     paths: {
         jquery: '../bower_components/jquery/jquery',
+        scrollTo: '../bower_components/jquery.scrollTo/jquery.scrollTo',
         bootstrapAffix: '../bower_components/sass-bootstrap/js/affix',
         bootstrapAlert: '../bower_components/sass-bootstrap/js/alert',
         bootstrapButton: '../bower_components/sass-bootstrap/js/button',
@@ -46,13 +47,18 @@ require.config({
         },
         bootstrapTransition: {
             deps: ['jquery']
+        },
+        scrollTo: {
+            deps: ['jquery']
         }
+
     }
 });
 
-require(['app', 'jquery'], function (app, $) {
+require(['app', 'jquery', 'ui'], function (app, $) {
     'use strict';
     // use app here
     console.log(app);
     console.log('Running jQuery %s', $().jquery);
 });
+

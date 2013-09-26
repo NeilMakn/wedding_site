@@ -5,8 +5,26 @@
 // }
 
 
-// navbar
-
-.side-bar{
+//main-content
+#main-wrap{
   border: 1px solid red;
+  top: 0em;
+  bottom: 0em;
+  height: 150em;
 }
+
+#our-story{
+  border: 1px solid green;
+  height: 50em;
+}
+
+#wedding-team{
+  border: 1px solid blue;
+  height: 50em;
+}
+
+#main-photos{
+  border: 1px solid pink;
+  height: 50em;
+}
+
