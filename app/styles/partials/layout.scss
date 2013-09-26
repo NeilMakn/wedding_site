@@ -4,27 +4,44 @@
 //   border: 20px solid red;
 // }
 
+// fixed-nav
+#fixed-navbar{
+  border: 1px solid orange;
+  position: fixed;
+  display: block;
+}
 
 //main-content
+
+
 #main-wrap{
   border: 1px solid red;
-  top: 0em;
-  bottom: 0em;
-  height: 150em;
+  top: 100em;
+  bottom: 90em;
+  height: 100%;
+  position: relative;
+  display: block;
 }
 
 #our-story{
   border: 1px solid green;
   height: 50em;
+  display: block;
+  width: 100%;
+  height: 70em;
 }
 
 #wedding-team{
   border: 1px solid blue;
-  height: 50em;
+  width: 100%;
+  display: block;
+  height: 70em;
 }
 
 #main-photos{
   border: 1px solid pink;
-  height: 50em;
+  width: 100%;
+  height: 70em;
+  display: block;
 }
 
