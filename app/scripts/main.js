@@ -51,7 +51,6 @@ require.config({
         scrollTo: {
             deps: ['jquery']
         }
-
     }
 });
 
